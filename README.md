@@ -18,9 +18,9 @@ Select "Clone From URL".
 3. In the environment selection box, select "Node".
 4. Click the green button "Create".
 5. Once the workspace is completed (while spooling up, you'll see a spinning gear on the newly created workspace in the sidebar), click the green button, "Start Editing".
-6. Now, when the workspace is loaded, select the command-line in the bottom window pane, and enter the following command, then press `Enter`:
+6. Now, when the workspace is loaded, select the command-line in the bottom window pane, and enter the following command, then press `Enter`, like this:
 
-        $ npm install
+<img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/npm-install.png">
 
 You'll see some test flying by on the command-line as some required files are installed... and...
 
