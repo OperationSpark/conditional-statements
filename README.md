@@ -1,11 +1,23 @@
 Conditional Statements
 ======================
-
 A brief coding exercise to demonstrate conditional statements...
 
-# Installation
 
-## On Cloud9
+**Table of Contents**
+
+- [Installation](#installation)
+  - [On Cloud9](#on-cloud9)
+- [Lesson Steps](#lesson-steps)
+  - [if else and their friends](#if-else-and-their-friends)
+  - [TODO 1 : Using a switch statement](#todo-1--using-a-switch-statement)
+  - [TODO 2 : Generate a Random Number](#todo-2--generate-a-random-number)
+  - [TODO 3 : Code the Game Logic](#todo-3--code-the-game-logic)
+  - [TODO 4 : Handle the Next Turn](#todo-4--handle-the-next-turn)
+
+
+## Installation
+
+### On Cloud9
 
 Create a new Cloud9 workspace:
 
@@ -25,6 +37,8 @@ Select "Clone From URL".
 You'll see some test flying by on the command-line as some required files are installed... and...
 
 Nice, you're in business...
+
+## Lesson Steps
 
 ###if else and their friends
 
