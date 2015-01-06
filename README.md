@@ -48,13 +48,13 @@ For our game, we'll select a random number between 0 and 100 and give the player
 
 Based on the user's input, we'll make decisions using conditional statements to:
 
-* Evaluate whether or not the user has guessed the answer correctly
-* If not, give the user a tip as to whether the answer is higher or lower than their last guess
+* Evaluate whether or not the user has guessed the answer correctly.
+* If not, give the user a tip as to whether the answer is higher or lower than their last guess.
 * Finally, check the number of turns taken: if the user has reached the maximum allowed turns, they'll be notified they lost the game, and the app will quit.  Otherwise, the user will be given another turn.
 
 And just for a better user experience (UX), we'll add a main menu so we can:
 
-*  give the user a choice at startup to play or quit
+*  give the user a choice at startup to play or quit.
 *  return to the main menu after playing a game.
 
 Alrighty, let's get to it...
