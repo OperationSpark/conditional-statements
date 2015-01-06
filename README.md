@@ -124,6 +124,8 @@ Let's code the logic of our guessing game using our friend, the `if ...else-if .
 ### TODO 3 : Code the Game Logic
 
 ````javascript
+// other code ...
+
 // TODO 3 : use if ...else-if ...else to process the game prompt input //
 var feedback;
 if (input === _answer) {
@@ -134,6 +136,8 @@ if (input === _answer) {
 } else {
     feedback = 'Higher...';
 }
+
+// other code ...
 ````
 
 Here, we're using the logic of the `if ...else-if ...else` statement to process the user's guess.
