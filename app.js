@@ -23,9 +23,7 @@ function onMainMenuInput(input) {
             process.exit(0);
             break;
         case 's':
-            var i = 1000;
-            while (i > 0) { var rand = Math.random(); console.log(rand); console.log(Math.floor(101 * rand)); i--; }
-            //start(7);
+            start(7);
             break;
     }
 }
@@ -52,23 +50,11 @@ function onGamePromptInput(input) {
     input = parseInt(input, 10);
     
     // TODO 3 : use if ...else-if ...else to process the game prompt input //
-    var feedback;
-    if (input === _answer) {
-        console.log('Bingo, you guessed it, the answer is %d.  GAME OVER!', _answer);
-        return endGame();
-    } else if (input > _answer) {
-        feedback = 'Lower...';
-    } else {
-        feedback = 'Higher...';
-    }
+    
     
     // TODO 4: use if ...else to do next turn only if there's a remaining turn //
-    if (_turns.push(input) < _maxTurns) {
-        doNextTurn(input, feedback);
-    } else {
-        console.log('You\'ve reached the maximum number of turns: GAME OVER!');
-        endGame();
-    }
+    
+    
 }
 
 

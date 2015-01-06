@@ -115,9 +115,13 @@ Ok, run the app!
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/run-app-first-time.png">
 
+Awesome, you've built a nice little menu; you can quit the app and start the game.  But if you try playing the game, nothing much happens:
 
-### TODO 3 : 
+<img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/app-first-run.png">
 
+Let's code the logic of our guessing game using our friend, the `if ...else-if ...else` statement...
+
+### TODO 3 : Code the Game Logic
 
 ````javascript
 // TODO 3 : use if ...else-if ...else to process the game prompt input //

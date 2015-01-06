@@ -23,9 +23,7 @@ function onMainMenuInput(input) {
             process.exit(0);
             break;
         case 's':
-            var i = 1000;
-            while (i > 0) { var rand = Math.random(); console.log(rand); console.log(Math.floor(101 * rand)); i--; }
-            //start(7);
+            start(7);
             break;
     }
 }
