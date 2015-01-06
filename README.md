@@ -170,5 +170,4 @@ This time, and to run the app any other time, use the `Run` button on the Consol
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/app-second-run.png">
 
-Smokin', we got ourselves a game!
-
+Smokin', we got ourselves a game!  _And_, you got to flex your conditional statements muscles!  Well done!
