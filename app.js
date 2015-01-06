@@ -17,15 +17,7 @@ mainMenu.show();
 
 function onMainMenuInput(input) {
     // TODO 1 : Create a switch case to process the main menu input //
-    switch (input) {
-        case 'q':
-            console.log('Thanks for playing Operation Spark\'s guessing game! Bye bye!');
-            process.exit(0);
-            break;
-        case 's':
-            start(7);
-            break;
-    }
+    
 }
 
 function start(maxTurns) {
@@ -33,7 +25,7 @@ function start(maxTurns) {
     _turns = [];
     
     // TODO 2 : generate a random number between 0 and 100 //
-    _answer = Math.floor(101 * Math.random());
+    
     
     console.log('We selected a number between 0 and 100.');
     console.log('You have a limited number of turns to guess the correct answer. Go...');
