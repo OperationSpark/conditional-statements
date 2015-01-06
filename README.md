@@ -99,7 +99,7 @@ Let's try our random number generatator (you can try this in the Immediate pane 
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/lower-end-range.png">
 
-Ok, how about for our upper range
+Ok, how about for our upper range?
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/upper-end-range.png">
 
@@ -109,7 +109,9 @@ Dig?  Ok, let's run the app!
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/run-app-first-time.png">
 
-Awesome, our app is running in its own Window pane at the bottom of the Cloud9 IDE.  You've built a nice little menu; you can quit the app and start the game.  But if you try playing the game, nothing much happens:
+Awesome, when you click on the `Run` button, **our app will open up in its own command-line window pane at the bottom of the Cloud9 IDE**.
+
+You've built a nice little menu; you can quit the app and start the game.  But if you try playing the game, nothing much happens:
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/app-first-run.png">
 
