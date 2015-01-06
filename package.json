@@ -1,0 +1,26 @@
+{
+  "name": "conditional-statements",
+  "version": "0.0.1",
+  "description": "An little game app to demonstrate conditional statements",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OperationSpark/conditional-statements.git"
+  },
+  "author": "jfraboni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OperationSpark/conditional-statements/issues"
+  },
+  "homepage": "https://github.com/OperationSpark/conditional-statements",
+  "dependencies": {
+    "prompt": "^0.2.14",
+    "cli-table": "^0.3.0",
+    "csv": "^0.4.0",
+    "deep-extend": "^0.2.11",
+    "tsv": "^0.2.0"
+  }
+}
