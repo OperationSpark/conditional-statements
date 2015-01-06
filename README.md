@@ -88,7 +88,7 @@ switch (input) {
 // ... other code
 ````
 
-Great, here we've created a switch that _switches-on_ the input we've received from the main menu.  We create a case to handle the String `'q'`, for the case that the user wants to exit the game (process.exit(0) is a Node.js method for exiting apps), and another case to handle the string `'s'`, which signifies the user wants to start the game.
+Great, here we've created a switch that _switches-on_ the input we've received from the main menu.  We create a case to handle the String `'q'`, for the case that the user wants to exit the game (`process.exit(0)` is a Node.js method for exiting apps), and another case to handle the string `'s'`, which signifies the user wants to start the game.
 
 Nice, you've used a switch!
 
