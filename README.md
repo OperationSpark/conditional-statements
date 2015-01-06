@@ -85,33 +85,27 @@ Ok, for interest sake, let's get you to write the code that will generate our ra
 Find **TODO 2** and enter this code:
 
 ````javascript
-// ... other code
+// other code ...
 
 // TODO 2 : generate a random number between 0 and 100 //
 _answer = Math.floor(101 * Math.random());
+
+// other code ...
 ````
 
 This little piece of code relies on the built-in Math library of Javascript to generate a random number between 0 and 100.  We provide the value 101 because Math.random() will generate a random floating point Number between 0 and .999 repeat, so multiplied by 101, we'll max out at a value somewhere above 100, but never 101.  We then use Math.floor() to shave-off the floating point.
 
 Let's try our random number generatator (you can try this in the Immediate pane at the bottom of the (the Javascript REPL):  So, for the lower end of our range we want to include 0, so with a random number of 0.004462211159989238, we get:
 
-````
-101 * 0.004462211159989238
-0.450683327158913
-Math.floor(101 * 0.004462211159989238)
-0
-````
+<img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/lower-end-range.png">
 
 Ok, how about for our upper range
 
-````
-101 * 0.99338070419617
-100.33145112381317
-Math.floor(101 * 0.99338070419617);
-100
-````
+<img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/upper-end-range.png">
 
-Ok, run the app!
+Dig?  Ok, let's run the app!
+
+**Run the App!**
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/run-app-first-time.png">
 
@@ -153,6 +147,8 @@ Finally, in our trailing `else` statement, we know by default from the above sta
 Now that we know the state of the user's last guess, let's either allow them to take another turn, if they have any turns left:
 
 ````javascript
+// other code ...
+
 // TODO 4: use if ...else to do next turn only if there's a remaining turn //
 if (_turns.push(input) < _maxTurns) {
     doNextTurn(input, feedback);
@@ -160,6 +156,8 @@ if (_turns.push(input) < _maxTurns) {
     console.log('You\'ve reached the maximum number of turns: GAME OVER!');
     endGame();
 }
+
+// other code ...
 ````
 
 Again, leaning on the conditional `if ...else` statement, we push the user's last guess, stored in the `input` variable, into the `_turns` Array.  Conveniently, on pushing new items into an Array, the `push` method of the Array returns the new length of the Array.  So, from this value, we can check if the number of turns taken by the user is less than the allowed turns.  If it is, we allow the user to continue playing, if not, we bail by telling the user they've reached the maximum number of turns, and return them to the main menu by calling `endGame()`.
