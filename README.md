@@ -32,7 +32,7 @@ We'll be making a simple guessing game to demonstrate the power of conditional s
 
 For our game, we'll select a random number between 0 and 100 and give the player a limited number of turns to guess the correct number.
 
-Based on the user's input, we'll make decicions using conditional statements to:
+Based on the user's input, we'll make decisions using conditional statements to:
 
 * Evaluate whether or not the user has guessed the answer correctly
 * If not, give the user a tip as to whether the answer is higher or lower than their last guess
@@ -51,7 +51,7 @@ Open up the file at:
 
 Because we want to focus mostly on using conditional statements, and in the interest of saving time, we've set some things up for you in this exercise: You'll see at the top of the file, we've included the Node shebang, imported the `view` module, and declared a few variables to be used by the app.
 
-Our `view.js` module is a utility that allows us to create menus on the fly.  The menus enable us to promt users for input, and to listen for a `userInput` event so we can handle and respond to user input.
+Our `view.js` module is a utility that allows us to create menus on the fly.  The menus enable us to prompt users for input, and to listen for a `userInput` event so we can handle and respond to user input.
 
 ### TODO 1 : Using a switch statement
 
@@ -95,7 +95,7 @@ _answer = Math.floor(101 * Math.random());
 
 This little piece of code relies on the built-in Math library of Javascript to generate a random number between 0 and 100.  We provide the value 101 because Math.random() will generate a random floating point Number between 0 and .999 repeat, so multiplied by 101, we'll max out at a value somewhere above 100, but never 101.  We then use Math.floor() to shave-off the floating point.
 
-Let's try our random number generatator (you can try this in the Immediate pane at the bottom of the (the Javascript REPL):  So, for the lower end of our range we want to include 0, so with a random number of 0.004462211159989238, we get:
+Let's try our random number generator (you can try this in the Immediate pane at the bottom of the (the Javascript REPL):  So, for the lower end of our range we want to include 0, so with a random number of 0.004462211159989238, we get:
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/lower-end-range.png">
 
@@ -171,3 +171,4 @@ This time, and to run the app any other time, use the `Run` button on the Consol
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/app-second-run.png">
 
 Smokin', we got ourselves a game!
+

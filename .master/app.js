@@ -69,7 +69,6 @@ function onGamePromptInput(input) {
     }
 }
 
-
 function doNextTurn(input, tip) {
     console.log(tip);
     gamePrompt.show();
