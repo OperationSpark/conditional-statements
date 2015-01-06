@@ -115,7 +115,7 @@ Ok, run the app!
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/run-app-first-time.png">
 
-Awesome, you've built a nice little menu; you can quit the app and start the game.  But if you try playing the game, nothing much happens:
+Awesome, our app is running in its own Window pane at the bottom of the Cloud9 IDE.  You've built a nice little menu; you can quit the app and start the game.  But if you try playing the game, nothing much happens:
 
 <img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/app-first-run.png">
 
@@ -162,4 +162,12 @@ if (_turns.push(input) < _maxTurns) {
 }
 ````
 
-Again, leaning on the conditional `if ...else` statement, we push the user's last guess, stored in the `input` variable, into the `_turns` Array.  Conveniently, on pushing new items into an Array, the `push` method of the Array returns the new length of the Array.  So, from this value, we can check if the number of turns taken by the user is less than the allowed turns.  If it is, we allow the user to continue playing, if not, we bail by telling the user they've reached the maximum number of turns, and return them to the main menu by calling `endGame()`
+Again, leaning on the conditional `if ...else` statement, we push the user's last guess, stored in the `input` variable, into the `_turns` Array.  Conveniently, on pushing new items into an Array, the `push` method of the Array returns the new length of the Array.  So, from this value, we can check if the number of turns taken by the user is less than the allowed turns.  If it is, we allow the user to continue playing, if not, we bail by telling the user they've reached the maximum number of turns, and return them to the main menu by calling `endGame()`.
+
+**Run the App!**
+
+This time, and to run the app any other time, use the `Run` button on the Console View pane at the bottom of the screen, see here:
+
+<img src="https://raw.githubusercontent.com/OperationSpark/conditional-statements/master/img/app-second-run.png">
+
+Smokin', we got ourselves a game!
